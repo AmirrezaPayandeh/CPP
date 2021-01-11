@@ -24,6 +24,11 @@ void Pointers();
 // Classes, Structs
 #include "Classes_Structs\Classes_Structs.cpp"
 
+// Static
+#include "Static\Static.cpp"
+int MyStaticClass::sharedInt;
+void LocalStaticFunc();
+
 
 
 int main()
@@ -63,13 +68,24 @@ int main()
 	std::cout << "\n############################################\n" << std::endl;
 
 	// Classes, Structs
-	MyTestClass testClass;
-	MyTestStruct testStruct;
+	std::cout << "Classes, Structs: " << std::endl;
 	std::cout << "Class properties: " << std::endl;
-	std::cout << "Access denied!\n" << std::endl;
+	MyTestClass testClass;
+	std::cout << "Access denied!\n" << std::endl; // calling testClass.Print() is invalid.
+
 	std::cout << "Struct properties: " << std::endl;
+	MyTestStruct testStruct;
 	testStruct.Print();
-	// calling testClass.Print() is invalid.
+	std::cout << "\n############################################\n" << std::endl;
+
+	// Static Word
+	std::cout << "Static Word:" << std::endl;
+	MyStaticClass::sharedInt++;
+	MyStaticClass::sharedInt++;
+	MyStaticClass::Print();
+	LocalStaticFunc();
+	LocalStaticFunc();
+	LocalStaticFunc();
 	std::cout << "\n############################################\n" << std::endl;
 
 
