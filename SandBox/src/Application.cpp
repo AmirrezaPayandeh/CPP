@@ -35,6 +35,9 @@ void LocalStaticFunc();
 // Constructors
 #include "Constructors\Constructors.cpp"
 
+// Inheritance
+#include "Inheritance\Inheritance.cpp"
+
 
 int main()
 {
@@ -104,6 +107,13 @@ int main()
 	{
 		MyConstructorClass myConstructor;
 	}
+	std::cout << "\n############################################\n" << std::endl;
+
+	// Inheritance
+	std::cout << "Inheritance, Interface:" << std::endl;
+	ClassB b;
+	b.IncreamentValue();
+	b.Print();
 	std::cout << "\n############################################\n" << std::endl;
 
 
