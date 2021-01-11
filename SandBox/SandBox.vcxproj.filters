@@ -10,6 +10,7 @@
     <ClCompile Include="src\Conditions\Conditions.cpp" />
     <ClCompile Include="src\Loops\Loops.cpp" />
     <ClCompile Include="src\Pointers\Pointers.cpp" />
+    <ClCompile Include="src\Classes_Structs\Classes_Structs.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Headers\Headers.h" />

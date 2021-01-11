@@ -21,6 +21,9 @@ void Loop3(int);
 // Pointers
 void Pointers();
 
+// Classes, Structs
+#include "Classes_Structs\Classes_Structs.cpp"
+
 
 
 int main()
@@ -58,6 +61,17 @@ int main()
 	std::cout << "Pointers:" << std::endl;
 	Pointers();
 	std::cout << "\n############################################\n" << std::endl;
+
+	// Classes, Structs
+	MyTestClass testClass;
+	MyTestStruct testStruct;
+	std::cout << "Class properties: " << std::endl;
+	std::cout << "Access denied!\n" << std::endl;
+	std::cout << "Struct properties: " << std::endl;
+	testStruct.Print();
+	// calling testClass.Print() is invalid.
+	std::cout << "\n############################################\n" << std::endl;
+
 
 
 	std::cin.get();
