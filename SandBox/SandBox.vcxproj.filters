@@ -6,5 +6,9 @@
     <ClCompile Include="src\Preprocessors\Example.cpp" />
     <ClCompile Include="src\Variables\Variables.cpp" />
     <ClCompile Include="src\Functions\Functions.cpp" />
+    <ClCompile Include="src\Headers\Headers.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Headers\Headers.h" />
   </ItemGroup>
 </Project>

@@ -21,9 +21,13 @@
   <ItemGroup>
     <ClCompile Include="src\Application.cpp" />
     <ClCompile Include="src\Functions\Functions.cpp" />
+    <ClCompile Include="src\Headers\Headers.cpp" />
     <ClCompile Include="src\Preprocessors\Example.cpp" />
     <ClCompile Include="src\Preprocessors\Preprocessors.cpp" />
     <ClCompile Include="src\Variables\Variables.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Headers\Headers.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
