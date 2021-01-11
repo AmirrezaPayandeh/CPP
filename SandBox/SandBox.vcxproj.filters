@@ -7,6 +7,8 @@
     <ClCompile Include="src\Variables\Variables.cpp" />
     <ClCompile Include="src\Functions\Functions.cpp" />
     <ClCompile Include="src\Headers\Headers.cpp" />
+    <ClCompile Include="src\Conditions\Conditions.cpp" />
+    <ClCompile Include="src\Loops\Loops.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Headers\Headers.h" />

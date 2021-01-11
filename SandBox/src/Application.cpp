@@ -10,6 +10,14 @@ void Variables();
 void Function();
 void Function(int);
 
+// Conditions
+void Conditions();
+
+// Loops
+void Loop1(int);
+void Loop2(int);
+void Loop3(int);
+
 int main()
 {
 	// Variables
@@ -27,6 +35,22 @@ int main()
 	// Headers
 	std::cout << "Headers:" << std::endl;
 	HeaderFunction();
+	std::cout << "\n############################################\n" << std::endl;
+
+	// Conditions
+	std::cout << "Conditions:" << std::endl;
+	Conditions();
+	std::cout << "\n############################################\n" << std::endl;
+
+	// Loops
+	std::cout << "Loops:" << std::endl;
+	Loop1(5);
+	Loop2(0);
+	Loop3(0);
+	std::cout << "\n############################################\n" << std::endl;
+
+
+
 
 	std::cin.get();
 }
