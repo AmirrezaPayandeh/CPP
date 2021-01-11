@@ -33,6 +33,7 @@
     <ClCompile Include="src\Preprocessors\Example.cpp" />
     <ClCompile Include="src\Preprocessors\Preprocessors.cpp" />
     <ClCompile Include="src\Static\Static.cpp" />
+    <ClCompile Include="src\Strings\Strings.cpp" />
     <ClCompile Include="src\Variables\Variables.cpp" />
     <ClCompile Include="src\Visibility\Visibility.cpp" />
   </ItemGroup>

@@ -44,6 +44,9 @@ void LocalStaticFunc();
 // Arrays
 #include "Arrays\Arrays.cpp"
 
+// Strings
+#include "Strings\Strings.cpp"
+
 
 int main()
 {
@@ -134,7 +137,11 @@ int main()
 	myArray.Print();
 	std::cout << "\n############################################\n" << std::endl;
 
-
+	// Strings
+	std::cout << "Strings:" << std::endl;
+	Strings string;
+	string.Print();
+	std::cout << "\n############################################\n" << std::endl;
 
 	std::cin.get();
 }

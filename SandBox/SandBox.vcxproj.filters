@@ -17,6 +17,7 @@
     <ClCompile Include="src\Inheritance\Inheritance.cpp" />
     <ClCompile Include="src\Visibility\Visibility.cpp" />
     <ClCompile Include="src\Arrays\Arrays.cpp" />
+    <ClCompile Include="src\Strings\Strings.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Headers\Headers.h" />
