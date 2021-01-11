@@ -32,6 +32,9 @@ void LocalStaticFunc();
 // Enums
 #include "Enums\Enums.cpp"
 
+// Constructors
+#include "Constructors\Constructors.cpp"
+
 
 int main()
 {
@@ -94,6 +97,13 @@ int main()
 	std::cout << "Enums:" << std::endl;
 	MyTestEnum myEnum = B;
 	std::cout << "myEnum = " << myEnum << std::endl;
+	std::cout << "\n############################################\n" << std::endl;
+
+	// Constructors
+	std::cout << "Constructors:" << std::endl;
+	{
+		MyConstructorClass myConstructor;
+	}
 	std::cout << "\n############################################\n" << std::endl;
 
 
