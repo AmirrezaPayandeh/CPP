@@ -41,6 +41,9 @@ void LocalStaticFunc();
 // Visibility
 #include "Visibility\Visibility.cpp"
 
+// Arrays
+#include "Arrays\Arrays.cpp"
+
 
 int main()
 {
@@ -124,6 +127,13 @@ int main()
 	VisibilityClassB classB;
 	classB.Print();
 	std::cout << "\n############################################\n" << std::endl;
+
+	// Arrays
+	std::cout << "Arrays:" << std::endl;
+	ArrayClass myArray;
+	myArray.Print();
+	std::cout << "\n############################################\n" << std::endl;
+
 
 
 	std::cin.get();
