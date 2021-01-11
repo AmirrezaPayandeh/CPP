@@ -29,6 +29,8 @@ void Pointers();
 int MyStaticClass::sharedInt;
 void LocalStaticFunc();
 
+// Enums
+#include "Enums\Enums.cpp"
 
 
 int main()
@@ -88,6 +90,11 @@ int main()
 	LocalStaticFunc();
 	std::cout << "\n############################################\n" << std::endl;
 
+	// Enums
+	std::cout << "Enums:" << std::endl;
+	MyTestEnum myEnum = B;
+	std::cout << "myEnum = " << myEnum << std::endl;
+	std::cout << "\n############################################\n" << std::endl;
 
 
 	std::cin.get();

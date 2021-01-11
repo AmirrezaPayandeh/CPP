@@ -12,6 +12,7 @@
     <ClCompile Include="src\Pointers\Pointers.cpp" />
     <ClCompile Include="src\Classes_Structs\Classes_Structs.cpp" />
     <ClCompile Include="src\Static\Static.cpp" />
+    <ClCompile Include="src\Enums\Enums.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Headers\Headers.h" />
