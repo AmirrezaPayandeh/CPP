@@ -18,6 +18,11 @@ void Loop1(int);
 void Loop2(int);
 void Loop3(int);
 
+// Pointers
+void Pointers();
+
+
+
 int main()
 {
 	// Variables
@@ -49,7 +54,10 @@ int main()
 	Loop3(0);
 	std::cout << "\n############################################\n" << std::endl;
 
-
+	// Pointers
+	std::cout << "Pointers:" << std::endl;
+	Pointers();
+	std::cout << "\n############################################\n" << std::endl;
 
 
 	std::cin.get();
