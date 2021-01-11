@@ -6,14 +6,14 @@
  * using word 'static' inside a class or struct means, all class or struct instances of that class
  * have access to that function or variable.
  * 
- * using word 'static' in a translation unit means, that function or variable is accessable only
+ * using word 'static' in a translation unit means, that function or variable is accessible only
  * inside of that translation unit.
  * 
  * local static is used to make a variable spesific to a block of code.
  */
 
 
-// these variable and function are only accessable inside of this file
+// these variable and function are only accessible inside of this file
 static int myVar = 5;
 static int Multiply(int a, int b)
 {

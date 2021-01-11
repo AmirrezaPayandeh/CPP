@@ -38,6 +38,9 @@ void LocalStaticFunc();
 // Inheritance
 #include "Inheritance\Inheritance.cpp"
 
+// Visibility
+#include "Visibility\Visibility.cpp"
+
 
 int main()
 {
@@ -114,6 +117,12 @@ int main()
 	ClassB b;
 	b.IncreamentValue();
 	b.Print();
+	std::cout << "\n############################################\n" << std::endl;
+
+	// Visibility
+	std::cout << "Visibility:" << std::endl;
+	VisibilityClassB classB;
+	classB.Print();
 	std::cout << "\n############################################\n" << std::endl;
 
 

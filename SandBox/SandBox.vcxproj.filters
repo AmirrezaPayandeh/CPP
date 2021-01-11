@@ -15,6 +15,7 @@
     <ClCompile Include="src\Enums\Enums.cpp" />
     <ClCompile Include="src\Constructors\Constructors.cpp" />
     <ClCompile Include="src\Inheritance\Inheritance.cpp" />
+    <ClCompile Include="src\Visibility\Visibility.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Headers\Headers.h" />
