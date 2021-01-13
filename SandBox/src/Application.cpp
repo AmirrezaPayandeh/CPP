@@ -47,6 +47,9 @@ void LocalStaticFunc();
 // Strings
 #include "Strings\Strings.cpp"
 
+// String Literals
+#include "StringLiterals\StringLiterals.cpp"
+
 
 int main()
 {
@@ -142,6 +145,14 @@ int main()
 	Strings string;
 	string.Print();
 	std::cout << "\n############################################\n" << std::endl;
+	
+	// String Literals
+	std::cout << "String Literals:" << std::endl;
+	StringLiterals st;
+	st.Print();
+	std::cout << "\n############################################\n" << std::endl;
+
+
 
 	std::cin.get();
 }

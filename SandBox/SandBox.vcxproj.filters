@@ -18,6 +18,7 @@
     <ClCompile Include="src\Visibility\Visibility.cpp" />
     <ClCompile Include="src\Arrays\Arrays.cpp" />
     <ClCompile Include="src\Strings\Strings.cpp" />
+    <ClCompile Include="src\StringLiterals\StringLiterals.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Headers\Headers.h" />
