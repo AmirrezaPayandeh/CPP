@@ -19,8 +19,10 @@
     <ClCompile Include="src\Arrays\Arrays.cpp" />
     <ClCompile Include="src\Strings\Strings.cpp" />
     <ClCompile Include="src\StringLiterals\StringLiterals.cpp" />
+    <ClCompile Include="src\Const\Const.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Headers\Headers.h" />
+    <ClInclude Include="src\Const\Const.h" />
   </ItemGroup>
 </Project>

@@ -50,6 +50,9 @@ void LocalStaticFunc();
 // String Literals
 #include "StringLiterals\StringLiterals.cpp"
 
+// Const
+#include "Const\Const.h"
+
 
 int main()
 {
@@ -150,6 +153,13 @@ int main()
 	std::cout << "String Literals:" << std::endl;
 	StringLiterals st;
 	st.Print();
+	std::cout << "\n############################################\n" << std::endl;
+
+	// Const
+	std::cout << "Const:" << std::endl;
+	ConstPrint();
+	ConstEntity ce;
+	PrintConstEntity(ce);
 	std::cout << "\n############################################\n" << std::endl;
 
 
