@@ -22,6 +22,7 @@
     <ClCompile Include="src\Const\Const.cpp" />
     <ClCompile Include="src\Mutable\Mutable.cpp" />
     <ClCompile Include="src\MemberInitializerList\MemberInitializerList.cpp" />
+    <ClCompile Include="src\TernaryOperators\TernaryOperators.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Headers\Headers.h" />

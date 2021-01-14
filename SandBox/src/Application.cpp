@@ -59,6 +59,9 @@ void MutablePrint();
 // Member Initializer List
 #include "MemberInitializerList\MemberInitializerList.cpp"
 
+// Ternary Operators
+void TernaryOperatorsPrint();
+
 int main()
 {
 	// Variables
@@ -176,6 +179,11 @@ int main()
 	// Member Initializer List
 	std::cout << "Member Initializer List:" << std::endl;
 	MemberInitializerList MIL;
+	std::cout << "\n############################################\n" << std::endl;
+
+	// Ternary Operators
+	std::cout << "Ternary Operators:" << std::endl;
+	TernaryOperatorsPrint();
 	std::cout << "\n############################################\n" << std::endl;
 
 
