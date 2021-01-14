@@ -20,6 +20,7 @@
     <ClCompile Include="src\Strings\Strings.cpp" />
     <ClCompile Include="src\StringLiterals\StringLiterals.cpp" />
     <ClCompile Include="src\Const\Const.cpp" />
+    <ClCompile Include="src\Mutable\Mutable.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Headers\Headers.h" />

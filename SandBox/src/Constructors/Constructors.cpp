@@ -8,6 +8,9 @@
  */
 class MyConstructorClass
 {
+	// IMPORTANT: there is a default constructor for each class, this is why you can instantiate your class
+	// even if you don't write your own constructor. to remove your default constructor, you can do this:
+	// MyConstructorClass() = delete;
 public:
 	MyConstructorClass()
 	{
@@ -17,7 +20,4 @@ public:
 	{
 		std::cout << "Destroyed Instance of MyConstructorClass!" << std::endl;
 	}
-
-private:
-
 };

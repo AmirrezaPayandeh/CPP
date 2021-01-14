@@ -53,6 +53,9 @@ void LocalStaticFunc();
 // Const
 #include "Const\Const.h"
 
+// Mutable
+void MutablePrint();
+
 
 int main()
 {
@@ -160,6 +163,12 @@ int main()
 	ConstPrint();
 	ConstEntity ce;
 	PrintConstEntity(ce);
+	std::cout << "\n############################################\n" << std::endl;
+
+	// Mutable
+	std::cout << "Mutable:" << std::endl;
+	MutablePrint();
+	std::cout << "see documentation page 'Mutable\\Mutable.cpp'" << std::endl;
 	std::cout << "\n############################################\n" << std::endl;
 
 
