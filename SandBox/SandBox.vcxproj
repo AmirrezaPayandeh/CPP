@@ -30,6 +30,7 @@
     <ClCompile Include="src\Headers\Headers.cpp" />
     <ClCompile Include="src\Inheritance\Inheritance.cpp" />
     <ClCompile Include="src\Loops\Loops.cpp" />
+    <ClCompile Include="src\MemberInitializerList\MemberInitializerList.cpp" />
     <ClCompile Include="src\Mutable\Mutable.cpp" />
     <ClCompile Include="src\Pointers\Pointers.cpp" />
     <ClCompile Include="src\Preprocessors\Example.cpp" />

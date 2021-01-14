@@ -56,6 +56,8 @@ void LocalStaticFunc();
 // Mutable
 void MutablePrint();
 
+// Member Initializer List
+#include "MemberInitializerList\MemberInitializerList.cpp"
 
 int main()
 {
@@ -169,6 +171,11 @@ int main()
 	std::cout << "Mutable:" << std::endl;
 	MutablePrint();
 	std::cout << "see documentation page 'Mutable\\Mutable.cpp'" << std::endl;
+	std::cout << "\n############################################\n" << std::endl;
+
+	// Member Initializer List
+	std::cout << "Member Initializer List:" << std::endl;
+	MemberInitializerList MIL;
 	std::cout << "\n############################################\n" << std::endl;
 
 

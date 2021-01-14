@@ -21,6 +21,7 @@
     <ClCompile Include="src\StringLiterals\StringLiterals.cpp" />
     <ClCompile Include="src\Const\Const.cpp" />
     <ClCompile Include="src\Mutable\Mutable.cpp" />
+    <ClCompile Include="src\MemberInitializerList\MemberInitializerList.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Headers\Headers.h" />
