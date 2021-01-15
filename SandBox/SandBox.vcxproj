@@ -29,6 +29,7 @@
     <ClCompile Include="src\Functions\Functions.cpp" />
     <ClCompile Include="src\Headers\Headers.cpp" />
     <ClCompile Include="src\Inheritance\Inheritance.cpp" />
+    <ClCompile Include="src\Instantiation\Instantiation.cpp" />
     <ClCompile Include="src\Loops\Loops.cpp" />
     <ClCompile Include="src\MemberInitializerList\MemberInitializerList.cpp" />
     <ClCompile Include="src\Mutable\Mutable.cpp" />

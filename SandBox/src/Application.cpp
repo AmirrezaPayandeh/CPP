@@ -62,6 +62,9 @@ void MutablePrint();
 // Ternary Operators
 void TernaryOperatorsPrint();
 
+// Instantiation
+void InstantiationPrint();
+
 int main()
 {
 	// Variables
@@ -184,6 +187,12 @@ int main()
 	// Ternary Operators
 	std::cout << "Ternary Operators:" << std::endl;
 	TernaryOperatorsPrint();
+	std::cout << "\n############################################\n" << std::endl;
+
+	// Instantiation
+	std::cout << "Instantiation:" << std::endl;
+	InstantiationPrint();
+	std::cout << "see documentation page 'Instantiation\\Instantiation.cpp'" << std::endl;
 	std::cout << "\n############################################\n" << std::endl;
 
 
