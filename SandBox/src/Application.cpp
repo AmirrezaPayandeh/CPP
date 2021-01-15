@@ -68,6 +68,9 @@ void InstantiationPrint();
 // New
 void NewPrint();
 
+// Implicit Conversion
+void ImplicitPrint();
+
 int main()
 {
 	// Variables
@@ -201,6 +204,11 @@ int main()
 	// New
 	std::cout << "New:" << std::endl;
 	NewPrint();
+	std::cout << "\n############################################\n" << std::endl;
+
+	// Implicit Conversion
+	std::cout << "Implicit Conversion:" << std::endl;
+	ImplicitPrint();
 	std::cout << "\n############################################\n" << std::endl;
 
 

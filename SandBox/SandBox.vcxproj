@@ -28,6 +28,7 @@
     <ClCompile Include="src\Enums\Enums.cpp" />
     <ClCompile Include="src\Functions\Functions.cpp" />
     <ClCompile Include="src\Headers\Headers.cpp" />
+    <ClCompile Include="src\ImplicitConversion\ImplicitConversion.cpp" />
     <ClCompile Include="src\Inheritance\Inheritance.cpp" />
     <ClCompile Include="src\Instantiation\Instantiation.cpp" />
     <ClCompile Include="src\Loops\Loops.cpp" />

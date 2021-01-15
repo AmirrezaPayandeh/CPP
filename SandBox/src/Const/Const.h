@@ -1,3 +1,5 @@
+// Const, read Const.cpp file first
+
 #pragma once
 
 class ConstEntity
