@@ -65,6 +65,9 @@ void TernaryOperatorsPrint();
 // Instantiation
 void InstantiationPrint();
 
+// New
+void NewPrint();
+
 int main()
 {
 	// Variables
@@ -193,6 +196,11 @@ int main()
 	std::cout << "Instantiation:" << std::endl;
 	InstantiationPrint();
 	std::cout << "see documentation page 'Instantiation\\Instantiation.cpp'" << std::endl;
+	std::cout << "\n############################################\n" << std::endl;
+
+	// New
+	std::cout << "New:" << std::endl;
+	NewPrint();
 	std::cout << "\n############################################\n" << std::endl;
 
 
