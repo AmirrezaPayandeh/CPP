@@ -10,12 +10,12 @@ struct Vector2D
 		: x(x), y(y) {}
 	
 	// in c++ you can overload operators
-	Vector2D operator+(Vector2D other)
+	Vector2D operator+(const Vector2D& other) const
 	{
 		return Vector2D(x + other.x, y + other.y);
 	}
 
-	Vector2D operator*(Vector2D other)
+	Vector2D operator*(const Vector2D& other) const
 	{
 		return Vector2D(x * other.x, y * other.y);
 	}
