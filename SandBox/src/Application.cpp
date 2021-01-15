@@ -71,6 +71,9 @@ void NewPrint();
 // Implicit Conversion
 void ImplicitPrint();
 
+// Operators
+void OperatorPrint();
+
 int main()
 {
 	// Variables
@@ -209,6 +212,11 @@ int main()
 	// Implicit Conversion
 	std::cout << "Implicit Conversion:" << std::endl;
 	ImplicitPrint();
+	std::cout << "\n############################################\n" << std::endl;
+
+	// Operators
+	std::cout << "Operators:" << std::endl;
+	OperatorPrint();
 	std::cout << "\n############################################\n" << std::endl;
 
 

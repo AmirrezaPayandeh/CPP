@@ -35,6 +35,7 @@
     <ClCompile Include="src\MemberInitializerList\MemberInitializerList.cpp" />
     <ClCompile Include="src\Mutable\Mutable.cpp" />
     <ClCompile Include="src\New\New.cpp" />
+    <ClCompile Include="src\Operators\Operators.cpp" />
     <ClCompile Include="src\Pointers\Pointers.cpp" />
     <ClCompile Include="src\Preprocessors\Example.cpp" />
     <ClCompile Include="src\Preprocessors\Preprocessors.cpp" />
