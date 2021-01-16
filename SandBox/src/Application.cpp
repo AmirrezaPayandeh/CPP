@@ -79,6 +79,9 @@ void OperatorPrint();
 // ObjectLifetime
 void ObjectLifetimePrint();
 
+// Smart Pointers
+void SmartPointerPrint();
+
 
 int main()
 {
@@ -233,6 +236,11 @@ int main()
 	// ObjectLifetime
 	std::cout << "This:" << std::endl;
 	ObjectLifetimePrint();
+	std::cout << "\n############################################\n" << std::endl;
+
+	// Smart Pointers
+	std::cout << "Smart Pointers:" << std::endl;
+	SmartPointerPrint();
 	std::cout << "\n############################################\n" << std::endl;
 
 

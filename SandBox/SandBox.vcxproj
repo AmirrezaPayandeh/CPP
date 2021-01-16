@@ -40,6 +40,7 @@
     <ClCompile Include="src\Pointers\Pointers.cpp" />
     <ClCompile Include="src\Preprocessors\Example.cpp" />
     <ClCompile Include="src\Preprocessors\Preprocessors.cpp" />
+    <ClCompile Include="src\SmartPointers\SmartPointers.cpp" />
     <ClCompile Include="src\Static\Static.cpp" />
     <ClCompile Include="src\StringLiterals\StringLiterals.cpp" />
     <ClCompile Include="src\Strings\Strings.cpp" />
