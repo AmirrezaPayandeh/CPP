@@ -74,6 +74,12 @@ void ImplicitPrint();
 // Operators
 void OperatorPrint();
 
+// This
+
+// ObjectLifetime
+void ObjectLifetimePrint();
+
+
 int main()
 {
 	// Variables
@@ -217,6 +223,16 @@ int main()
 	// Operators
 	std::cout << "Operators:" << std::endl;
 	OperatorPrint();
+	std::cout << "\n############################################\n" << std::endl;
+
+	// This
+	std::cout << "This:" << std::endl;
+	std::cout << "see documentation page 'This\\This.cpp'" << std::endl;
+	std::cout << "\n############################################\n" << std::endl;
+
+	// ObjectLifetime
+	std::cout << "This:" << std::endl;
+	ObjectLifetimePrint();
 	std::cout << "\n############################################\n" << std::endl;
 
 

@@ -27,6 +27,8 @@
     <ClCompile Include="src\New\New.cpp" />
     <ClCompile Include="src\ImplicitConversion\ImplicitConversion.cpp" />
     <ClCompile Include="src\Operators\Operators.cpp" />
+    <ClCompile Include="src\This\This.cpp" />
+    <ClCompile Include="src\ObjectLifetime\ObjectLifetime.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Headers\Headers.h" />

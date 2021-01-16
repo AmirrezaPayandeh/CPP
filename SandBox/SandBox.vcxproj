@@ -35,6 +35,7 @@
     <ClCompile Include="src\MemberInitializerList\MemberInitializerList.cpp" />
     <ClCompile Include="src\Mutable\Mutable.cpp" />
     <ClCompile Include="src\New\New.cpp" />
+    <ClCompile Include="src\ObjectLifetime\ObjectLifetime.cpp" />
     <ClCompile Include="src\Operators\Operators.cpp" />
     <ClCompile Include="src\Pointers\Pointers.cpp" />
     <ClCompile Include="src\Preprocessors\Example.cpp" />
@@ -43,6 +44,7 @@
     <ClCompile Include="src\StringLiterals\StringLiterals.cpp" />
     <ClCompile Include="src\Strings\Strings.cpp" />
     <ClCompile Include="src\TernaryOperators\TernaryOperators.cpp" />
+    <ClCompile Include="src\This\This.cpp" />
     <ClCompile Include="src\Variables\Variables.cpp" />
     <ClCompile Include="src\Visibility\Visibility.cpp" />
   </ItemGroup>
