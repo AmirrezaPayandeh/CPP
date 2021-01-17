@@ -25,6 +25,7 @@
     <ClCompile Include="src\Conditions\Conditions.cpp" />
     <ClCompile Include="src\Constructors\Constructors.cpp" />
     <ClCompile Include="src\Const\Const.cpp" />
+    <ClCompile Include="src\CopyConstructors\CopyConstructors.cpp" />
     <ClCompile Include="src\Enums\Enums.cpp" />
     <ClCompile Include="src\Functions\Functions.cpp" />
     <ClCompile Include="src\Headers\Headers.cpp" />

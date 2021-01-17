@@ -82,6 +82,9 @@ void ObjectLifetimePrint();
 // Smart Pointers
 void SmartPointerPrint();
 
+// Copy Constructors
+void CopyConstructorPrint();
+
 
 int main()
 {
@@ -241,6 +244,11 @@ int main()
 	// Smart Pointers
 	std::cout << "Smart Pointers:" << std::endl;
 	SmartPointerPrint();
+	std::cout << "\n############################################\n" << std::endl;
+
+	// Copy Constructors
+	std::cout << "Copy Constructors:" << std::endl;
+	CopyConstructorPrint();
 	std::cout << "\n############################################\n" << std::endl;
 
 

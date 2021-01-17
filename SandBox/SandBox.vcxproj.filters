@@ -30,6 +30,7 @@
     <ClCompile Include="src\This\This.cpp" />
     <ClCompile Include="src\ObjectLifetime\ObjectLifetime.cpp" />
     <ClCompile Include="src\SmartPointers\SmartPointers.cpp" />
+    <ClCompile Include="src\CopyConstructors\CopyConstructors.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Headers\Headers.h" />
