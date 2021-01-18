@@ -48,6 +48,7 @@
     <ClCompile Include="src\TernaryOperators\TernaryOperators.cpp" />
     <ClCompile Include="src\This\This.cpp" />
     <ClCompile Include="src\Variables\Variables.cpp" />
+    <ClCompile Include="src\Vectors\Vectors.cpp" />
     <ClCompile Include="src\Visibility\Visibility.cpp" />
   </ItemGroup>
   <ItemGroup>

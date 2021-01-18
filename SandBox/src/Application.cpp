@@ -85,6 +85,8 @@ void SmartPointerPrint();
 // Copy Constructors
 void CopyConstructorPrint();
 
+// Vectors
+void VectorPrint();
 
 int main()
 {
@@ -249,6 +251,11 @@ int main()
 	// Copy Constructors
 	std::cout << "Copy Constructors:" << std::endl;
 	CopyConstructorPrint();
+	std::cout << "\n############################################\n" << std::endl;
+
+	// Vectors
+	std::cout << "Vectors:" << std::endl;
+	VectorPrint();
 	std::cout << "\n############################################\n" << std::endl;
 
 

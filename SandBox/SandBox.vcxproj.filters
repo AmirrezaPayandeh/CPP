@@ -31,6 +31,7 @@
     <ClCompile Include="src\ObjectLifetime\ObjectLifetime.cpp" />
     <ClCompile Include="src\SmartPointers\SmartPointers.cpp" />
     <ClCompile Include="src\CopyConstructors\CopyConstructors.cpp" />
+    <ClCompile Include="src\Vectors\Vectors.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Headers\Headers.h" />
