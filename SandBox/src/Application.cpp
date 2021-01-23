@@ -91,6 +91,9 @@ void VectorPrint();
 // 	Multiple Return Values
 void MultipleReturnPrint();
 
+// Templates
+void TemplatePrint();
+
 
 int main()
 {
@@ -267,6 +270,10 @@ int main()
 	MultipleReturnPrint();
 	std::cout << "\n############################################\n" << std::endl;
 
+	// Templates
+	std::cout << "Templates:" << std::endl;
+	TemplatePrint();
+	std::cout << "\n############################################\n" << std::endl;
 
 
 	std::cin.get();

@@ -46,6 +46,7 @@
     <ClCompile Include="src\Static\Static.cpp" />
     <ClCompile Include="src\StringLiterals\StringLiterals.cpp" />
     <ClCompile Include="src\Strings\Strings.cpp" />
+    <ClCompile Include="src\Templates\Templates.cpp" />
     <ClCompile Include="src\TernaryOperators\TernaryOperators.cpp" />
     <ClCompile Include="src\This\This.cpp" />
     <ClCompile Include="src\Variables\Variables.cpp" />
