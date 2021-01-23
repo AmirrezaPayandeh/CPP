@@ -32,6 +32,7 @@
     <ClCompile Include="src\SmartPointers\SmartPointers.cpp" />
     <ClCompile Include="src\CopyConstructors\CopyConstructors.cpp" />
     <ClCompile Include="src\Vectors\Vectors.cpp" />
+    <ClCompile Include="src\MultipleReturnValues\MultipleReturnValues.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Headers\Headers.h" />

@@ -34,6 +34,7 @@
     <ClCompile Include="src\Instantiation\Instantiation.cpp" />
     <ClCompile Include="src\Loops\Loops.cpp" />
     <ClCompile Include="src\MemberInitializerList\MemberInitializerList.cpp" />
+    <ClCompile Include="src\MultipleReturnValues\MultipleReturnValues.cpp" />
     <ClCompile Include="src\Mutable\Mutable.cpp" />
     <ClCompile Include="src\New\New.cpp" />
     <ClCompile Include="src\ObjectLifetime\ObjectLifetime.cpp" />

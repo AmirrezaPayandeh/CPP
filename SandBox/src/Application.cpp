@@ -88,6 +88,10 @@ void CopyConstructorPrint();
 // Vectors
 void VectorPrint();
 
+// 	Multiple Return Values
+void MultipleReturnPrint();
+
+
 int main()
 {
 	// Variables
@@ -256,6 +260,11 @@ int main()
 	// Vectors
 	std::cout << "Vectors:" << std::endl;
 	VectorPrint();
+	std::cout << "\n############################################\n" << std::endl;
+
+	// Multiple Return Values
+	std::cout << "Multiple Return Values:" << std::endl;
+	MultipleReturnPrint();
 	std::cout << "\n############################################\n" << std::endl;
 
 
